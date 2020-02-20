@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.img-circle {
+    vertical-align: top;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.who {
+    font-size: xx-large;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+}
+
+.mysection {
+    border-top: ridge;
+    border-bottom: ridge;
+    font-size: x-large;
+
+}
+
+.emph {
+    color: chocolate;
+    font-style: italic;
+}
+
+.myinfos {
+    column-count: 2;
+}
+
+.mydate {
+    font-weight: bold;
+}
