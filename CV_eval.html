@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="CV d'évaluation" />
+        <meta name="keywords" content="Cours, HTML, Web" />
+        <meta name="author" content="Victor Luxey" />
+        <title>CV Victor Luxey</title>
+        <link href="CV_eval.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="conteneur">
+            <img src="whale.jpg" alt="une queue de baleine">
+            <h1 class="text-img">Victor Luxey</h1>
+        </div>
+
+        <div id="menu">
+            <a href="#infos">Qui je suis ?</a>
+            <a href="#competences">Competences</a>
+            <a href="#experiences">Expérience</a>
+            <a href="#parcours">Parcours</a>
+            <button type="button">Imprimer mon CV</button>
+        </div>
+        
+        <div class=flexible>
+            
+            <div class="gauche"></div>
+
+            <div class="droite">
+
+                <div>
+                    <h2 id="infos">Qui je suis ?</h2>
+                </div>
+
+                <div id="competences">
+                    <h2>Mes compétences professionelles</h2>
+                    <ul class="deroulante"> 
+                        <li><div onclick="switchDisplay('informatique')">Informatique</div>
+                            <ul id="informatique">
+                                <li>Compétence 1</li>
+                                <li>Compétence 2</li>
+                                <li>Compétence 3</li>
+                            </ul>
+                        </li>
+                        <li><a onclick="switchDisplay('biologie')">Biologie</a>
+                            <ul id="biologie">
+                                <li>Compétence 1</li>
+                                <li>Compétence 2</li>
+                                <li>Compétence 3</li>
+                            </ul>
+                        </li>
+                        <li><div onclick="switchDisplay('autres')">Aptitudes sociales</div>
+                            <ul id="autres">
+                                <li>Compétence 1</li>
+                                <li>Compétence 2</li>
+                                <li>Compétence 3</li>
+                            </ul>
+                        </li>
+                </div>
+                
+                <div id="experiences">
+                    <h2>Mes expériences professionelles</h2>
+                </div>
+                
+                <div id="parcours">
+                    <h2>Parcours académique</h2>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <script src="CV_eval.js"></script>
+
+    </body>
+
+</html>
